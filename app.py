@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('heart_model.pkl', 'rb'))
 
 st.title('❤️ Heart Disease Prediction')
 st.write("This app predicts whether a person is likely to have heart disease based on input features.")
